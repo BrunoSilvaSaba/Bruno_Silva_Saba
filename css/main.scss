@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+$base-color: #f7db57;
+
+.header_nav_container {
+    background: $base-color;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.header_nav_container ul {
+    display: flex;
+}
+
+.header_nav_container li, a{
+    display: inline-block;
+    font-weight: normal;
+    padding: 0.625rem;
+    font-size: 1.125rem;
+    line-height: 1.2;
+    color: #1d1d1d;
+    text-decoration: none;
+}
+
+.header_nav_container img {
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    width: 150px;
+    padding: 1.375rem 0 1.125rem 0;
+    height: auto;
+}
+
+//==============        MAIN        ================//
+
+.intro img {
+    width: 100%;
+    z-index: -5000;
+    position: fixed;
+    top: -20rem;
+}
+
+main .container-intro {
+    background-image: url();
+    background: #1d1d1daf;
+    height: 50vh;
+    color: whitesmoke;
+}
+
+#sections-main {
+    position: relative;
+    background: white;
+    z-index: 52;
+    height: 80vh;
+    width: 100%;
+}
+
+.intro-info {
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+//=====================Container Time========================//
+
+#container-time {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.time_image_area {
+    width: 250px;
+}
+
+.time_image_area img {
+    width: 120%;
+}
+
+//==================Container-Contact====================//
+
+#container-contact {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+}
+
+.balloons_image_area {
+    width: 250px;
+}
+
+.balloons_image_area img {
+    width: 120%;
+}
+
+//========================Container-form===================//
+
+.contact-form {
+    padding: 10px;
+    width: 600px;
+    height: 380px;
+}
+
+.contact-form input {
+    width: 80%;
+    height: 25px;
+}
+
+.contact-form textarea {
+    width: 80%;
+}
+
+.contact-form button {
+    width: 150px;
+    height: 30px;
+    background: $base-color;
+    border: none;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(203, 203, 207);
+    width: 100%;
+    height: 150px;
+}
