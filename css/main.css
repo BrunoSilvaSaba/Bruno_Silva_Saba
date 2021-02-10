@@ -1,6 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nova+Square&family=Oxygen:wght@300;400&display=swap");
 * {
   margin: 0;
   padding: 0;
+}
+
+h1, p {
+  font-family: 'Oxygen', sans-serif;
+}
+
+h2 {
+  font-family: 'Nova Square', cursive;
 }
 
 .header_nav_container {
@@ -24,7 +34,7 @@
 .header_nav_container li, a {
   display: inline-block;
   font-weight: normal;
-  padding: 0.625rem;
+  padding: 0.728rem;
   font-size: 1.125rem;
   line-height: 1.2;
   color: #1d1d1d;
@@ -153,6 +163,13 @@ main .container-intro {
   height: 30px;
   background: #f7db57;
   border: none;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: white;
+  border: 1px solid #f7db57;
+  color: #f7db57;
 }
 
 footer {
