@@ -101,7 +101,8 @@ main .container-intro {
 
 #container-time {
     @include dom-sections;
-    padding: 50px 00px;
+    padding: 50px 00px 240px 00px;
+    background: white;
 }
 
 .time_image_area {
@@ -116,7 +117,7 @@ main .container-intro {
 
 #container-contact {
     @include dom-sections;
-    padding: 00px 00px 150px 00px;
+    padding: 00px 00px 200px 00px;
     background: white;
     
 }
@@ -132,6 +133,8 @@ main .container-intro {
 //========================Container-form===================//
 
 .contact-form {
+    position: relative;
+    top: -60px;
     padding: 10px;
     width: 600px;
     height: 380px;
@@ -157,9 +160,33 @@ main .container-intro {
 .contact-form button:hover {
     background: white;
     border: 1px solid $base-color;
-    color: $base-color;
-    
+    color: $base-color;   
 }
+
+.contact-form label {
+    display: block;
+    color: #666;
+  }
+
+.contact-form label.error {
+    position: absolute;
+    top: 5px;
+    color: #f00;
+  }
+
+.contact-form input {
+    width: 94%;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  
+.contact-form textarea {
+    width: 97%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+  }
+
+//==========================================================//
 
 footer {
     display: flex;
